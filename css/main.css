@@ -16,7 +16,92 @@ li{
 a{
     text-decoration: none;
 }
+
+/*
+==========================================
+FORM SECTION
+==========================================
+*/
+.logo {
+    margin-left: 30%;
+}
+.partners-logo {
+    width: 100%;
+    height: 40px;
+    font-size: 18px;
+    border: 1px solid blue;
+}
+
+.partners-logo a {
+    font-size: 20px;
+    padding-right: 2px;
+}
+.partners-logo img {
+    margin-top: 8px;
+}
+h1, p {
+    text-align: center;
+}
+
+.form-section {
+    height: 700px;
+    width: 400px;
+    margin-left: 30%;
+    position: relative;
+    top: 70px;
+}
+form {
+    margin-bottom: 22px;
+    font-size: 14px;
+    color: #505050;
+}
+.signup-form input {
+    
+    display: block;
+    height: 30px;
+    width: 80%;
+}
+section p, .form-footer {
+    font-size: 12px;
+}
+section p {
+    margin: 0px 15% 30px 15%;
+}
+
+.btn {
+    width: 82% ;
+    height: 34px;
+    margin-left: 7%;
+    margin-top: 20px;
+}
+
+.signup-form input, .signup-form label {
+    margin: 10px 10px;
+    margin-left: 7%;
+}
+.phone-hint {
+    margin-left: 30px;
+}
+.form-footer {
+    background-color: #eceef1;
+    text-align: center;
+    padding: 20px;
+}
+.terms-para {
+    margin-bottom: 30px;
+}
+.form-fields {
+    background: white;
+    margin-top: 20px;
+    color: #505050;
+    border: 1px solid grey;
+}
+.logos{
+    width: 22px;
+    height: 22px;
+}
 footer{
+    margin-top: 100px;
     text-align: center;
 }
 footer a{
@@ -26,6 +111,8 @@ footer a{
 
 footer ul{
     display: flex;
+    width: 100%;
+    text-align: center;
     
 }
 footer p{
