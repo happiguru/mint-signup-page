@@ -11,9 +11,26 @@ li{
     font-size: 12px;
     line-height: 1.5;
     text-align: left;
+    color: #505050;
 }
 a{
     text-decoration: none;
+}
+footer{
+    text-align: center;
+}
+footer a{
+    color: #505050;
+    margin-left :15px;
+}
+
+footer ul{
+    display: flex;
+    
+}
+footer p{
+    font-size: 12px;
+    color: #505050;
 }
 .signin_button{
     color: white;
