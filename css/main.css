@@ -1,0 +1,30 @@
+body{
+    background-color: #eceef1;
+    font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+nav{
+    display: flex;
+    float: right;
+}
+li{
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+}
+a{
+    text-decoration: none;
+}
+.signin_button{
+    color: white;
+    margin-top: 15px;
+    margin-left: 10px;
+    background: #2c72c6;
+    border-radius: 4px;
+    height: 36px;
+    width: 86px;
+    border: 1px solid #4c4c4c;
+}
+.signin_button img {
+    margin-bottom: -7px;
+}
