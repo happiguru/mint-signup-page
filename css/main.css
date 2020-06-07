@@ -26,27 +26,30 @@ FORM SECTION
     margin-left: 30%;
 }
 .partners-logo {
-    width: 100%;
+    position: relative;
+    width: 76%;
     height: 40px;
+    left: 9%;
     font-size: 18px;
-    border: 1px solid blue;
 }
 
 .partners-logo a {
     font-size: 20px;
     padding-right: 2px;
+    color: #505050;
 }
 .partners-logo img {
     margin-top: 8px;
 }
 h1, p {
     text-align: center;
+    font-weight: 100;
 }
 
 .form-section {
     height: 700px;
     width: 400px;
-    margin-left: 30%;
+    margin-left: 33%;
     position: relative;
     top: 70px;
 }
@@ -61,26 +64,39 @@ form {
     height: 30px;
     width: 80%;
 }
-section p, .form-footer {
+section .form-footer {
     font-size: 12px;
 }
 section p {
-    margin: 0px 15% 30px 15%;
+    margin: 0px 8% 30px 8%;
 }
 
 .btn {
-    width: 82% ;
+    border: 1px solid #0077C5;
+    border-radius: 4px;
+    background-color: #0077C5;
+    color: white;
+    font-size: 20px;
+    width: 82%;
     height: 34px;
     margin-left: 7%;
     margin-top: 20px;
 }
-
+.signup-form input {
+    border: 1px solid #C1C5C8;
+}
 .signup-form input, .signup-form label {
     margin: 10px 10px;
     margin-left: 7%;
+    color: #404040;
+    font-size: 16px;
+
 }
 .phone-hint {
     margin-left: 30px;
+    margin-left: 30px;
+    text-align: left;
+    font-size: 12px;
 }
 .form-footer {
     background-color: #eceef1;
@@ -88,13 +104,15 @@ section p {
     padding: 20px;
 }
 .terms-para {
-    margin-bottom: 30px;
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0px 15% 30px 15%;
 }
 .form-fields {
     background: white;
     margin-top: 20px;
     color: #505050;
-    border: 1px solid grey;
+    border: 1px solid #C1C5C8;
 }
 .logos{
     width: 22px;
@@ -110,8 +128,9 @@ footer a{
 }
 
 footer ul{
+    margin-left: 39%;
     display: flex;
-    width: 100%;
+    width: 15%;
     text-align: center;
     
 }
