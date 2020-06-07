@@ -15,6 +15,9 @@ body{
     text-align: center;
     line-height: 2.5;
 }
+header {
+    margin-top: -10px;
+}
 nav{
     display: flex;
     float: right;
@@ -84,7 +87,7 @@ section .form-footer {
     font-size: 12px;
 }
 section p {
-    margin: 0px 8% 30px 8%;
+    margin: 0px 6% 30px 6%;
 }
 
 .btn {
@@ -131,8 +134,10 @@ section p {
     border: 1px solid #C1C5C8;
 }
 .logos{
-    width: 22px;
-    height: 22px;
+    position: relative;
+    top: 6px;
+    width: 25px;
+    height: 25px;
 }
 footer{
     margin-top: 100px;
