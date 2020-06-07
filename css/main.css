@@ -1,6 +1,19 @@
 body{
     background-color: #eceef1;
+    position: relative;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.fixed a{
+    width: 146px;
+    border-radius: 5px;
+    height: 40px;
+    background-color: #6B6C72;
+    color: white;
+    position: fixed;
+    right: 11%;
+    bottom: 0px;
+    text-align: center;
+    line-height: 2.5;
 }
 nav{
     display: flex;
@@ -57,9 +70,12 @@ form {
     margin-bottom: 22px;
     font-size: 14px;
     color: #505050;
+    position: relative;
+}
+form img{
+    margin-bottom: -5px;
 }
 .signup-form input {
-    
     display: block;
     height: 30px;
     width: 80%;
@@ -74,7 +90,7 @@ section p {
 .btn {
     border: 1px solid #0077C5;
     border-radius: 4px;
-    background-color: #0077C5;
+    background-color: #2c72c6;
     color: white;
     font-size: 20px;
     width: 82%;
@@ -150,4 +166,9 @@ footer p{
 }
 .signin_button img {
     margin-bottom: -7px;
+}
+.input_lock{
+    position: absolute;
+    bottom: 74px;
+    right: 50px;
 }
