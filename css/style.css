@@ -3,39 +3,39 @@
 FORM PAGE STYLING
 ==========================================
 */
-body{
+
+body {
     background-color: #eceef1;
     position: relative;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-.fixed a{
+.fixed a {
     width: 146px;
     border-radius: 5px;
     height: 40px;
-    background-color: #6B6C72;
+    background-color: #6b6c72;
     color: white;
     position: fixed;
     right: 11%;
-    bottom: 0;
     text-align: center;
     line-height: 2.5;
 }
 header {
     margin-top: -10px;
 }
-nav{
+nav {
     display: flex;
     float: right;
 }
-li{
+li {
     list-style-type: none;
-    font-size: 12px;
     line-height: 1.5;
     text-align: left;
     color: #505050;
 }
-a{
+a {
     text-decoration: none;
+    color: #0077c5;
 }
 
 /*
@@ -62,7 +62,8 @@ FORM SECTION
 .partners-logo img {
     margin-top: 8px;
 }
-h1, p {
+h1,
+p {
     text-align: center;
     font-weight: 100;
 }
@@ -70,9 +71,10 @@ h1, p {
 .form-section {
     height: 700px;
     width: 400px;
-    margin-left: 33%;
+    margin: 0 auto;
     position: relative;
     top: 70px;
+    margin-bottom: 120px;
 }
 form {
     margin-bottom: 22px;
@@ -80,16 +82,13 @@ form {
     color: #505050;
     position: relative;
 }
-form img{
+form img {
     margin-bottom: -5px;
 }
 .signup-form input {
     display: block;
     height: 30px;
     width: 80%;
-}
-section .form-footer {
-    font-size: 12px;
 }
 section p {
     margin: 0 6% 30px 6%;
@@ -107,18 +106,20 @@ section p {
     margin-top: 20px;
 }
 .signup-form input {
-    border: 1px solid #C1C5C8;
+    border: 1px solid #c1c5c8;
 }
-.signup-form input, .signup-form label {
+.signup-form input,
+.signup-form label {
     margin: 10px 10px;
     margin-left: 7%;
     color: #404040;
     font-size: 16px;
-
 }
 .phone-hint {
     margin-left: 30px;
     text-align: left;
+}
+.phone-hint, footer p, li, section .form-footer {
     font-size: 12px;
 }
 .form-footer {
@@ -135,15 +136,15 @@ section p {
     background: white;
     margin-top: 20px;
     color: #505050;
-    border: 1px solid #C1C5C8;
+    border: 1px solid #c1c5c8;
 }
-.logos{
+.logos {
     position: relative;
     top: 6px;
     width: 25px;
     height: 25px;
 }
-.signin_button{
+.signin_button {
     color: white;
     margin-top: 15px;
     margin-left: 10px;
@@ -156,35 +157,32 @@ section p {
 .signin_button img {
     margin-bottom: -7px;
 }
-.input_lock{
+.input_lock {
     position: absolute;
     bottom: 74px;
     right: 50px;
 }
-
 /*
 ==========================================
 FOOTER STYLING SECTION
 ==========================================
 */
-footer{
-    margin-top: 100px;
+footer {
+    margin-top: 170px;
     text-align: center;
 }
-footer a{
+footer a {
     color: #505050;
-    margin-left :15px;
 }
 
-footer ul{
-    margin-left: 39%;
-    display: flex;
-    width: 15%;
-    text-align: center;
-    
+footer ul {
+    margin: 0 auto;
 }
-footer p{
-    font-size: 12px;
+footer ul li {
+    text-align: center;
+    display: inline-block;
+}
+footer p {
     color: #505050;
 }
 
