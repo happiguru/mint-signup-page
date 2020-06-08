@@ -191,3 +191,6 @@ footer p {
     color: #505050;
 }
 
+@media(max-width:767px) {
+    header nav {display:none;}
+    }
