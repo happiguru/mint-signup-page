@@ -189,8 +189,8 @@ footer p {
 }
 
 .fixed {
-  position: absolute;
-  bottom: -10px;
+  position: fixed;
+  bottom: 3px;
   right: 8%;
   background: #6b6c72;
   border-radius: 4px;
