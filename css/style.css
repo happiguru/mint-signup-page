@@ -1,7 +1,5 @@
-/* FORM PAGE STYLING */
-
 body {
-    background-color: #eceef1;
+    background-color: #ECEEF1;
     position: relative;
     font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -9,7 +7,7 @@ body {
     width: 146px;
     border-radius: 5px;
     height: 40px;
-    background-color: #6b6c72;
+    background-color: #6B6C72;
     color: white;
     position: fixed;
     right: 11%;
@@ -31,10 +29,8 @@ li {
 }
 a {
     text-decoration: none;
-    color: #0077c5;
+    color: #0077C5;
 }
-
-/* FORM SECTION */
 .logo {
     margin-left: 30%;
 }
@@ -89,7 +85,7 @@ section p {
 .btn {
     border: none;
     border-radius: 4px;
-    background-color: #2c72c6;
+    background-color: #2C72C6;
     color: white;
     font-size: 20px;
     width: 82%;
@@ -98,7 +94,7 @@ section p {
     margin-top: 20px;
 }
 .signup-form input {
-    border: 1px solid #c1c5c8;
+    border: 1px solid #C1C5C8;
 }
 .signup-form input,
 .signup-form label {
@@ -115,7 +111,7 @@ section p {
     font-size: 12px;
 }
 .form-footer {
-    background-color: #eceef1;
+    background-color: #ECEEF1;
     text-align: center;
     padding: 20px;
 }
@@ -128,7 +124,7 @@ section p {
     background: white;
     margin-top: 20px;
     color: #505050;
-    border: 1px solid #c1c5c8;
+    border: 1px solid #C1C5C8;
 }
 .logos {
     position: relative;
@@ -140,7 +136,7 @@ section p {
     color: white;
     margin-top: 15px;
     margin-left: 10px;
-    background: #2c72c6;
+    background: #2C72C6;
     border-radius: 4px;
     height: 36px;
     width: 86px;
@@ -154,7 +150,6 @@ section p {
     bottom: 74px;
     right: 50px;
 }
-/* FOOTER STYLING SECTION */
 footer {
     margin-top: 170px;
     text-align: center;
