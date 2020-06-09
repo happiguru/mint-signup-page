@@ -168,6 +168,8 @@ footer p {
     text-align: center;
     line-height: 2.5;
 }
-@media(max-width:767px) {
-    header nav {display:none;}
+@media (max-width: 767px) {
+    header nav {
+        display: none;
     }
+}
