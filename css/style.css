@@ -1,8 +1,4 @@
-/*
-==========================================
-FORM PAGE STYLING
-==========================================
-*/
+/* FORM PAGE STYLING */
 
 body {
     background-color: #eceef1;
@@ -38,11 +34,7 @@ a {
     color: #0077c5;
 }
 
-/*
-==========================================
-FORM SECTION
-==========================================
-*/
+/* FORM SECTION */
 .logo {
     margin-left: 30%;
 }
@@ -162,11 +154,7 @@ section p {
     bottom: 74px;
     right: 50px;
 }
-/*
-==========================================
-FOOTER STYLING SECTION
-==========================================
-*/
+/* FOOTER STYLING SECTION */
 footer {
     margin-top: 170px;
     text-align: center;
