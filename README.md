@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/happiguru/mint-signup-page/)
+[Live Demo Link](https://rawcdn.githack.com/happiguru/mint-signup-page/855e970b97e526b922bac5771130a61339996c91/index.html)
 <!-- [Live Demo Link - Umair](https://umairarshadbutt.github.io/Youtube_Home_Page/) -->
 
 
