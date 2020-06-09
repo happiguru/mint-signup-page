@@ -29,18 +29,23 @@ a {
   margin-left: 30%;
 }
 
-.partners-logo a {
-  font-size: 20px;
-  padding-right: 2px;
-  color: #505050;
-}
-
 .partners-logo {
   position: relative;
   width: 76%;
   height: 40px;
   left: 9%;
   font-size: 18px;
+}
+
+form {
+  margin-bottom: 22px;
+  font-size: 14px;
+  color: #505050;
+  position: relative;
+}
+
+form img {
+  margin-bottom: -5px;
 }
 
 .partners-logo img {
@@ -62,23 +67,6 @@ p {
   margin-bottom: 120px;
 }
 
-form {
-  margin-bottom: 22px;
-  font-size: 14px;
-  color: #505050;
-  position: relative;
-}
-
-form img {
-  margin-bottom: -5px;
-}
-
-.signup-form input {
-  display: block;
-  height: 30px;
-  width: 80%;
-}
-
 section p {
   margin: 0 6% 30px 6%;
 }
@@ -97,10 +85,16 @@ section p {
 
 .signup-form input {
   border: 1px solid #c1c5c8;
+  margin: 10px 10px;
+  margin-left: 7%;
+  color: #404040;
+  font-size: 16px;
+  display: block;
+  height: 30px;
+  width: 80%;
 }
 
-.signup-form input,
-.signup-form label {
+label {
   margin: 10px 10px;
   margin-left: 7%;
   color: #404040;
@@ -112,17 +106,17 @@ section p {
   text-align: left;
 }
 
+.form-footer {
+  background-color: #eceef1;
+  text-align: center;
+  padding: 20px;
+}
+
 .phone-hint,
 footer p,
 li,
 section .form-footer {
   font-size: 12px;
-}
-
-.form-footer {
-  background-color: #eceef1;
-  text-align: center;
-  padding: 20px;
 }
 
 .terms-para {
@@ -172,6 +166,12 @@ footer {
 }
 
 footer a {
+  color: #505050;
+}
+
+.partners-logo a {
+  font-size: 20px;
+  padding-right: 2px;
   color: #505050;
 }
 
